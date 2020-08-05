@@ -37,7 +37,7 @@ best for learning new languages.
 
 ## Getting started
 
-Make sure you have Python 3 installed. You can check this by running `python3 --version` in your terminal and ensuring that it returns a version string that is at least 3.6.5. 
+Make sure you have Python 3 installed. You can check this by running `python3 --version` in your terminal and ensuring that it returns a version string that is at least 3.6.5.
 
 ## Goals
 
