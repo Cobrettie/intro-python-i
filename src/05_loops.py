@@ -5,9 +5,16 @@ to the C-style for-loops that JavaScript features.
 
 # Use Python's `range` function with a for-loop to print the numbers 1 through 10
 # YOUR CODE HERE
+x = range(1, 11)
+for n in x:
+    print("range 1-10", n)
 
 # Print out the numbers 1 through 10 using a while-loop
-# YOUR CODE HERE 
+# YOUR CODE HERE
+num = 1
+while num < 11:
+    print("while loop 1-10", num)
+    num += 1
 
 numbers = [
   951, 402, 984, 651, 360, 69, 408, 319, 601, 485, 980, 507, 725, 547, 544,
@@ -21,7 +28,7 @@ numbers = [
 
 # Loop through and print out all of the even numbers from the above `numbers`
 # list. Ensure that the numbers are printed in the same order in which they 
-# appeart in the `numbers` list.
+# appear in the `numbers` list.
 # Don't print out any numbers that come after 237 in the `numbers` list.
 # YOUR CODE HERE
 for n in numbers:

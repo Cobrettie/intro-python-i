@@ -8,25 +8,28 @@ y = [8, 9, 10]
 
 # Change x so that it is [1, 2, 3, 4]
 # YOUR CODE HERE
-print(x)
+print(x.append(4))
 
 # Using y, change x so that it is [1, 2, 3, 4, 8, 9, 10]
 # YOUR CODE HERE
-print(x)
+print(x.extend(y))
 
 # Change x so that it is [1, 2, 3, 4, 9, 10]
 # YOUR CODE HERE
-print(x)
+print(x.remove(8))
 
 # Change x so that it is [1, 2, 3, 4, 9, 99, 10]
 # YOUR CODE HERE
-print(x)
+print(x.insert(5, 99))
 
 # Print the length of list x
 # YOUR CODE HERE
+print("length of x: ", len(x))
 
 # Print all the values in x multiplied by 1000
 # YOUR CODE HERE
+for n in x:
+    print("n * 1000: ", n * 1000)
 
 z = [
     [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
@@ -43,6 +46,8 @@ z = [
 
 # Print the first element from each nested list in the matrix z
 # YOUR CODE HERE
+for n in z:
+    print("First el from each nested list: ", n[0])
 
 # Print all of the elements that lie on the left-to-right 
 # diagonal of matrix z 
