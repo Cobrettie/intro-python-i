@@ -37,4 +37,4 @@ print("Current working directory: ", os.getcwd())
 
 # Print out your machine's login name
 # YOUR CODE HERE
-# print("machines login name: ", os.getlogin())
+print("machines login name: ", os.getlogin())
