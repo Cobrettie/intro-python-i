@@ -10,21 +10,21 @@ for more info regarding list comprehensions.
 
 # Write a list comprehension to produce the array [1, 2, 3, 4, 5]
 
-y = []
+y = [n for n in range(1, 5)]
 
 print (y)
 
 # Write a list comprehension to produce the cubes of the numbers 0-9:
 # [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
 
-cubes = []
+cubes = [n**3 for n in range(10)]
 
 print(cubes)
 
-# Write a list comprehension that utilizes slicing syntax to product 
+# Write a list comprehension that utilizes slicing syntax to produce
 # a list with the elements from the first half of the `cubes` list
 
-first_half_of_cubes = []
+first_half_of_cubes = [cubes[0:5]]
 
 print(first_half_of_cubes)
 
@@ -33,7 +33,7 @@ print(first_half_of_cubes)
 
 lowercase = ["foo", "bar", "baz"]
 
-uppercase = []
+uppercase = [i.upper() for i in lowercase]
 
 print(uppercase)
 
@@ -43,6 +43,6 @@ print(uppercase)
 x = input("Enter comma-separated numbers: ").split(',')
 
 # What do you need between the square brackets to make it work?
-y = []
+y = [n for n in x if (int(n) % 2 == 0)]
 
 print(y)
