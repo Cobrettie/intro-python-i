@@ -52,3 +52,13 @@ for n in z:
 # Print all of the elements that lie on the left-to-right 
 # diagonal of matrix z 
 # YOUR CODE HERE
+
+
+# what if we also want the index of the element?
+# enumerate gives us access to each list element and its index
+for index, elem in enumerate(y):
+    print(f"element {index} is {elem}")
+
+
+# how to loop certain number of times
+# range() 'start, stop, increment by'

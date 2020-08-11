@@ -46,3 +46,19 @@ x = input("Enter comma-separated numbers: ").split(',')
 y = [n for n in x if (int(n) % 2 == 0)]
 
 print(y)
+
+
+
+# Steps for creating a list comprehension
+
+# 1. Write out how you would do the same logic with a normal for loop
+# 2. Take the for loop you wrote, translate that loop into a list comprehension
+
+# populate a list with all squares up to and including 20
+# for loop
+for n in range(21):
+    print(n, 'squared is', n**2)
+
+# list comprehension
+squared_lc = [n**2 for n in range(21)]
+print(squared_lc)
