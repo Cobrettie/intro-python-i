@@ -54,7 +54,8 @@ print(waypoints[0])
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
 for i in range(len(waypoints)):
-    print(f"waypoint {i} latitude: {waypoints[i]['lat']}, longitude: {waypoints[i]['lon']}, name: {waypoints[i]['name']}")
+    print(waypoints[i].values())
+    # print(f"waypoint {i} latitude: {waypoints[i]['lat']}, longitude: {waypoints[i]['lon']}, name: {waypoints[i]['name']}")
 
 
 
