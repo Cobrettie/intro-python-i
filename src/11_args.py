@@ -44,29 +44,33 @@ print(f3(8))     # Should print 9
 
 # Write a function f4 that accepts an arbitrary number of keyword arguments and
 # prints out the keys and values like so:
-#
+
 # key: foo, value: bar
 # key: baz, value: 12
-#
+
 # Note: Google "python keyword arguments".
 
 # YOUR CODE HERE
+def f4(**kwargs):
+    for key, value in kwargs.items():
+        print("key: %s, value: %s" %(key, value))
 
 # Should print
 # key: a, value: 12
 # key: b, value: 30
-#  f4(a=12, b=30)
+f4(a=12, b=30)
 
-# # Should print
-# # key: city, value: Berkeley
-# # key: population, value: 121240
-# # key: founded, value: "March 23, 1868"
-# f4(city="Berkeley", population=121240, founded="March 23, 1868")
+# Should print
+# key: city, value: Berkeley
+# key: population, value: 121240
+# key: founded, value: "March 23, 1868"
+f4(city="Berkeley", population=121240, founded="March 23, 1868")
 
-# d = {
-#     "monster": "goblin",
-#     "hp": 3
-# }
+d = {
+    "monster": "goblin",
+    "hp": 3
+}
 
-# # How do you have to modify the f4 call below to make this work?
-# f4(d)
+# ??????How do you have to modify the f4 call below to make this work? UNCERTAIN
+# z is the key, d is the value
+f4(z=d)

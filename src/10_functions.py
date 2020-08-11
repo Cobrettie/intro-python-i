@@ -31,3 +31,13 @@ def reverse_string(s):
     print(''.join(reversed(s)))
 
 reverse_string(s)
+
+
+### Python 2 lect. notes 
+
+# passing by reference vs. passing by value
+# PBR: referencing a list, etc. Pass that reference in to function; the function changes the data, and those changes to the data persist, even when exiting the function
+
+# PBV: the function receives a brand new copy of the data; outside the function,
+# the changes the function made to the data do not persist, unless we explicitly save the data
+
