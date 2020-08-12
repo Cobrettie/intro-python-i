@@ -35,6 +35,9 @@ reverse_string(s)
 
 ### Python 2 lect. notes 
 
+# Why are return statements important?
+# without a return statement, nothing 'comes out' of the function
+
 # passing by reference vs. passing by value
 # PBR: referencing a list, etc. Pass that reference in to function; the function changes the data, and those changes to the data persist, even when exiting the function
 
