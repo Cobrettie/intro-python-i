@@ -42,6 +42,7 @@ while True:
         print(ai_victory)
     else:
         print('Either a tie, or incorrect input')
+        continue
 
 
     print('user wins', user_wins)
