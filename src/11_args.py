@@ -73,4 +73,4 @@ d = {
 
 # ??????How do you have to modify the f4 call below to make this work? UNCERTAIN
 # z is the key, d is the value
-f4(z=d)
+f4(**d)
